@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(56, 55, 55);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#resume {
+    width: 60%;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    overflow: auto;
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.2);
+    min-width: 800px;
+
+}
+
+#name-portion {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    overflow: hidden;
+    background-color: rgb(32, 44, 103);
+}
+
+h1 {
+    border-color: white;
+    color: rgb(233, 122, 55);
+    font-size: xx-large;
+}
+
+#left-portion {
+
+    background-color: white;
+    width: 80%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#right-portion {
+
+    background-color: rgb(252, 118, 37);
+    padding-left: 15px;
+    width: 30%;
+    padding-top: 50px;
+    padding-right: 15px;
+
+
+}
+
+.container {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-size: small;
+}
+
+
+div p {
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+hr {
+    background-color: rgb(195, 154, 104);
+    height: 1px;
+    border-radius: 50px;
+    margin-bottom: -10px;
+    border-color: transparent;
+}
+
+
+#left-portion ul {
+    margin-left: -15px;
+    margin-top: -10px;
+}
+
+#left-portion li ul {
+    margin-top: unset;
+    margin-bottom: 10px;
+    margin-left: -20px;
+
+}
+
+#left-portion li ul li:not(:last-child) {
+    margin-bottom: -5px;
+}
+
+
+
+strong {
+    font-weight: lighter;
+}
+
+h3 {
+    color: rgb(32, 44, 103);
+}
+
+#right-portion img {
+    margin-bottom: -4px;
+}
+
+#right-portion p {
+    margin-bottom: 10px;
+}
+
+#right-portion a {
+    color: black;
+}
+
+#right-portion>img {
+
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin-top: -130px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 2px solid rgb(195, 154, 104);
+    border-radius: 50%;
+
+}
